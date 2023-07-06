@@ -12,7 +12,7 @@
 package models
 
 import (
-	"github.com/stremovskyy/gofondy/fondy_status"
+	"github.com/meklis/gofondy/fondy_status"
 	"strconv"
 )
 

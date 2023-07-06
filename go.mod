@@ -1,4 +1,4 @@
-module github.com/stremovskyy/gofondy
+module github.com/meklis/gofondy
 
 go 1.17
 

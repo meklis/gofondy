@@ -14,8 +14,8 @@ package gofondy
 import (
 	"net/url"
 
-	"github.com/stremovskyy/gofondy/models"
-	"github.com/stremovskyy/gofondy/models/models_v2"
+	"github.com/meklis/gofondy/models"
+	"github.com/meklis/gofondy/models/models_v2"
 )
 
 type FondyGateway interface {

@@ -27,8 +27,8 @@ package models
 import (
 	"encoding/json"
 	"errors"
-	"github.com/stremovskyy/gofondy/consts"
-	"github.com/stremovskyy/gofondy/fondy_status"
+	"github.com/meklis/gofondy/consts"
+	"github.com/meklis/gofondy/fondy_status"
 	"strconv"
 )
 

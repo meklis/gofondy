@@ -33,8 +33,8 @@ import (
 	"net/http"
 
 	"github.com/google/uuid"
-	"github.com/stremovskyy/gofondy/consts"
-	"github.com/stremovskyy/gofondy/models"
+	"github.com/meklis/gofondy/consts"
+	"github.com/meklis/gofondy/models"
 )
 
 type v1Client struct {

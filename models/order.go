@@ -27,14 +27,14 @@ package models
 import (
 	"crypto/sha1"
 	"fmt"
-	"github.com/stremovskyy/gofondy/fondy_status"
+	"github.com/meklis/gofondy/fondy_status"
 	"reflect"
 	"sort"
 	"strconv"
 	"strings"
 
 	"github.com/google/uuid"
-	"github.com/stremovskyy/gofondy/consts"
+	"github.com/meklis/gofondy/consts"
 )
 
 type Order struct {

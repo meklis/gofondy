@@ -31,7 +31,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/stremovskyy/gofondy/utils"
+	"github.com/meklis/gofondy/utils"
 )
 
 type FondyRequest struct {
@@ -66,7 +66,7 @@ type FondyRequestObject struct {
 	Container         *string `json:"container,omitempty"`
 	ReservationData   *string `json:"reservation_data,omitempty"`
 
-	AdditionalData map[string]string `json:"-"`
+	AdditionalData map[string]string `json:"-" gorm:"serializer:json"`
 }
 
 func (r *FondyRequestObject) AdditionalDataString() string {

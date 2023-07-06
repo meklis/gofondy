@@ -29,7 +29,7 @@ import (
 	"errors"
 	"strconv"
 
-	"github.com/stremovskyy/gofondy/consts"
+	"github.com/meklis/gofondy/consts"
 )
 
 func UnmarshalFondyResponse(data []byte) (Response, error) {
@@ -74,9 +74,9 @@ func (r *Response) Error() error {
 type ResponseObject struct {
 	Target         string                     `json:"target"`
 	ResponseURL    *string                    `json:"response_url"`
-	ResponseStatus consts.FondyResponseStatus `json:"response_status"`
+	ResponseStatus consts.FondyResponseStatus `json:"response_status" gorm:"serializer:json"`
 	Pending        bool                       `json:"pending"`
-	OrderData      Order                      `json:"order_data"`
+	OrderData      Order                      `json:"order_data"  gorm:"serializer:json"`
 	APIVersion     string                     `json:"api_version"`
 	PaymentID      *string                    `json:"payment_id"`
 	CheckoutURL    *string                    `json:"checkout_url"`

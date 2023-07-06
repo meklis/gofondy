@@ -25,10 +25,10 @@
 package manager
 
 import (
-	"github.com/stremovskyy/gofondy/consts"
-	"github.com/stremovskyy/gofondy/models"
-	"github.com/stremovskyy/gofondy/models/models_v2"
-	"github.com/stremovskyy/gofondy/utils"
+	"github.com/meklis/gofondy/consts"
+	"github.com/meklis/gofondy/models"
+	"github.com/meklis/gofondy/models/models_v2"
+	"github.com/meklis/gofondy/utils"
 )
 
 type FondyManager interface {

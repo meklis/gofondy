@@ -27,7 +27,7 @@ package models
 import (
 	"encoding/json"
 
-	"github.com/stremovskyy/gofondy/consts"
+	"github.com/meklis/gofondy/consts"
 )
 
 func UnmarshalAdditionalInfo(data []byte) (AdditionalInfo, error) {

@@ -25,7 +25,7 @@
 package models
 
 import (
-	"github.com/stremovskyy/gofondy/utils"
+	"github.com/meklis/gofondy/utils"
 	"strconv"
 )
 

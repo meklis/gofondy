@@ -25,7 +25,7 @@
 package models_v2
 
 import (
-	"github.com/stremovskyy/gofondy/consts"
+	"github.com/meklis/gofondy/consts"
 )
 
 type OrderWrapper struct {
